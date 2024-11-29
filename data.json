@@ -1,0 +1,13 @@
+SELECT * FROM articulos;
+
+-- Muestra los productos en stock
+SELECT * FROM articulos WHERE stock > 0;
+
+-- Productos con precio mayor a $50
+SELECT * FROM articulos WHERE precio > 50;
+
+-- Actualizar stock de un artículo
+UPDATE articulos SET stock = 100 WHERE id = 1;
+
+-- Eliminar un artículo
+DELETE FROM articulos WHERE id = 30;
